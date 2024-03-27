@@ -421,6 +421,12 @@ require('lazy').setup {
       { 'folke/neodev.nvim', opts = {} },
     },
     config = function()
+      require('lspconfig').grammarly.setup {
+        on_attach = on_attach,
+        init_options = {
+          clientId = 'client_BaDkMgx4X19X9UxxYRCXZo',
+        },
+      }
       -- Brief Aside: **What is LSP?**
       --
       -- LSP is an acronym you've probably heard, but might not understand what it is.
