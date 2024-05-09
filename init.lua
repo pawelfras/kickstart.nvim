@@ -566,6 +566,10 @@ require('lazy').setup {
         angularls = {},
         prettier = {},
         eslint = {},
+        svelte = {},
+        cssls = {},
+        somesass_ls = {},
+        tailwindcss = {},
         --
 
         lua_ls = {
