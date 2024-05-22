@@ -10,9 +10,9 @@ return {
   },
   config = function()
     require('neo-tree').setup {
-      window = {
-        position = 'left',
-      },
+      -- window = {
+      --   position = 'left',
+      -- },
       buffers = {
         follow_current_file = {
           enabled = true,
