@@ -655,6 +655,7 @@ require('lazy').setup {
         -- is found.
         javascript = { { 'prettier', 'eslint' } },
         typescript = { { 'prettier', 'eslint' } },
+        html = { { 'prettier' } },
       },
     },
   },
